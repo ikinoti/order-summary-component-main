@@ -21,10 +21,14 @@ body {
 }
 
 .card-header {
-  width: 100%;
+  /* width: 100vh; */
   height: 30%;
   margin-bottom: 50px;
   overflow: hidden;
+  border: 1px solid red;
+  margin: -10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .summary p {
@@ -47,7 +51,6 @@ body {
 }
 .subPlan img {
   margin-right: 20px;
-  height: 80%;
 }
 
 .subPlan p span {
@@ -96,3 +99,12 @@ button:hover {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media (max-width: 375px) {
+  .card {
+    width: 90%;
+  }
+  .subscription {
+    font-size: 12px;
+  }
+} ;
