@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://github.com/ikinoti/order-summary-component-main.git)
+- Live Site URL: [live site](https://ikinoti.github.io/order-summary-component-main/)
 
 ### Built with
 
